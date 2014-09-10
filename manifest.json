@@ -1,0 +1,19 @@
+{ 
+  "author": "ZeroLing",
+	"manifest_version": 2,
+  "background": {
+    "scripts": ["google2useso.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>",
+    "tabs",
+    "*://*/*"
+  ],
+  "description": "完美解决 GXW 屏蔽 Google 服务器导致链接 Google 字体慢的问题。 By ZeroLing",
+  "name": "GoogleApis2UseSo",
+  "version": "1.1"
+}
